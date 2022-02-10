@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Kwitter</title>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Neonderthaw&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    <script src="kwitter_room.js"></script>
+    </head>
+    <body>
+        <center>
+        <button id="logOut_button" onclick="logOut()" class="glyphicon glyphicon-log-out btn btn-danger" >Log Out</button>
+        <br></br>
+        <h1 id="top">Kwitter</h1>
+        <label id="username_label"></label>
+        <br></br>
+        <label>Add Room#</label>
+        <input type="text" id="textinput_roomname" class="form-control" placeholder="Room Name#">
+        <br></br>
+        <button id="button_roomname" onclick="addUser()" class="btn btn-danger">#Add Room</button>
+        <br></br>
+        <h1>#TRENDINGROOMS</h1>
+        <div id="output">
+        </div>
+        <label id="allroomnames_label"></label>
+        </center>
+    </body>
+</html>
